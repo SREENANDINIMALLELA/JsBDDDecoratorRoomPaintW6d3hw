@@ -1,7 +1,7 @@
 const assert = require('assert');
-const Room = require('../room.js');
-const PaintCan = require('../paintCan.js');
-const Decorator = require('../decorator.js');
+const Room = require('../models/room.js');
+const PaintCan = require('../models/paintCan.js');
+const Decorator = require('../models/decorator.js');
 describe('Room',function(){
   let room ;
   beforeEach(function(){
